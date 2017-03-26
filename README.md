@@ -14,8 +14,7 @@ Dockerized NGINX.
 
 ## Run
 
-- "**--volumes-from**" option below required, if some of the site hosts is going to use a PHP container in the same host.
-
+"**--volumes-from**" option below required, if some of the site hosts is going to use a PHP container in the same host.
 
     docker run --interactive --tty --name=nginx --memory=512m \
         --hostname=nginx \
